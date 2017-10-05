@@ -116,7 +116,7 @@ kops create cluster
 
 ### NOTES (Best Practice)
 * In regions with 2 Availability Zones, deploy the 3 masters in one zone and the nodes can be distributed between the 2
-zones. This can be done by sepcifying the  flags:
+zones. This can be done by specifying the  flags:
 ```
      --master-count=3
      --master-zones=$MASTER_ZONE
